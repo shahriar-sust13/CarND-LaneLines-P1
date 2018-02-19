@@ -34,16 +34,10 @@ The goals / steps of this project are the following:
 - First, I find the longest line that is located in the left part of the image. I assume that, it is a portion of left lane line. So, I expand this line according to its slope and then draw that expanded line.
 - To get the right lane line, I find the longest line that is located in the right part of the image. I assume that, it is a portion of right lane line. So, I expand this line according to its slope and then draw that expanded line.
 
-### 2. Identify potential shortcomings with your current pipeline
+### 2. Potential Shortcomings
 
+Sometimes detected lane lines in a frame much different from the previous frame, so that the output movie is not so smooth.
 
-One potential shortcoming would be what would happen when ... 
+### 3. Possible Improvements
 
-Another shortcoming could be ...
-
-
-### 3. Suggest possible improvements to your pipeline
-
-A possible improvement would be to ...
-
-Another potential improvement could be to ...
+A possible improvement would be averaging the lane lines, then output would be much smooth.
