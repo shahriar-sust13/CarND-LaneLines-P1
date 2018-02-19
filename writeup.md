@@ -17,7 +17,16 @@ The goals / steps of this project are the following:
 
 ## Description
 
-### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
+### 1. Pipeline consists of following steps
+- **grayscale:** converts an image to grayscale
+- **gaussian_blur:** applies gaussian blur to an image
+- **canny:** finds the edges of an image using canny edge detection
+- **region_of_interest:** masks an image inside a polygon. All the pixels outside the polygon are converted to black.
+- **hough_lines:** finds the lines of an image using hough transform
+- **get_dist:** calculate distance between two points
+- **get_full_line:** make a 220 pixels length line according to the initial line's slope
+- **draw_lines:** draws the two lane lines
+- **weighted_img:** plots the lines on the original image
 
 My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
 
