@@ -32,10 +32,10 @@ The goals / steps of this project are the following:
 - First, I find the longest line that is located in the left part of the image. I assume that, it is a portion of left lane line. So, I expand this line according to its slope and then draw that expanded line.
 - To get the right lane line, I find the longest line that is located in the right part of the image. I assume that, it is a portion of right lane line. So, I expand this line according to its slope and then draw that expanded line.
 
-### 2. Potential Shortcomings
+### 3. Potential Shortcomings
 
 Sometimes detected lane lines in a frame much different from the previous frame, so that the output movie is not so smooth.
 
-### 3. Possible Improvements
+### 4. Possible Improvements
 
 A possible improvement would be averaging the lane lines, then output would be much smooth.
