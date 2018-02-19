@@ -28,14 +28,11 @@ The goals / steps of this project are the following:
 - **draw_lines:** draws the two lane lines
 - **weighted_img:** plots the lines on the original image
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
-
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
-
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
-
-![alt text][image1]
-
+### 2. Modification of draw_lines()
+- I imagine that each image has two equal parts: left and right
+- Left lane line is located in the left part and right lane line is located in the right part
+- First, I find the longest line that is located in the left part of the image. I assume that, it is a portion of left lane line. So, I expand this line according to its slope and then draw that expanded line.
+- To get the right lane line, I find the longest line that is located in the right part of the image. I assume that, it is a portion of right lane line. So, I expand this line according to its slope and then draw that expanded line.
 
 ### 2. Identify potential shortcomings with your current pipeline
 
