@@ -13,9 +13,7 @@ The goals / steps of this project are the following:
 
 ---
 
-**Reflection**
-
-## Description
+## Reflection
 
 ### 1. Pipeline consists of following steps
 - **grayscale:** converts an image to grayscale
