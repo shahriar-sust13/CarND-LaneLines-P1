@@ -13,7 +13,7 @@ The goals / steps of this project are the following:
 
 ---
 
-### Reflection
+**Reflection**
 
 ## Description
 
